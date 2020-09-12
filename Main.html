@@ -1,1 +1,165 @@
+<html>
+	<head>
+		<title>Clock</title>
+		<meta    charset = "UTF-8">
+		<meta    name = "description" content =  "A Simple GUI clock using HTML, CSS and JavaScript">
+		<meta    name = "keywords"    content =  "HTML, HTML5, CSS, JS, CSS3, JavaScript, Calculator, JS Calculator, html calculator">
+		<meta    name = "author"      content =  "Yaksh Bariya">
+		<meta    name = "viewport"    content =  "width=device-width, initial-scale=1.0">
 
+		<link    rel  = "stylesheet"  href    =  "style.css">
+		<script  src  = "clock.js" async>
+		</script>
+	</head>
+	
+	
+
+	<body id="body">
+		<svg height="1000" width="1000">
+			<circle id="x" cx="500" cy="500" r="400" stroke-width="20" stroke="#000000" fill="#CBCBCB"/>
+			<rect   width="350" height="150" x="325" y="550" />
+			<text id="date"   x="390" y="625" font-size="100" text-anchor="middle" font-family="serif" fill="#FF00FF"></text>
+			<text id="day"    x="390" y="690" font-size="66"  text-anchor="middle" font-family="monospace" fill="#00FF00"></text>
+			<text id="month"  x="555" y="660" font-size="100" text-anchor="middle" font-family="monospace" fill="#00FFFF"></text>
+	
+
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(0  ,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(0  ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(30 ,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(30 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(60 ,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(60 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(90 ,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(90 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(120,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(120,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(150,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(150,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(180,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(180,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(210,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(210,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(240,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(240,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(270,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(270,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(300,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(300,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="150" stroke="#000000" stroke-width="20" transform="rotate(330,500,500)" />
+			<circle                   cx="500" cy="150"   fill="#000000"            r="10" transform="rotate(330,500,500)" />
+	
+	
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(6  ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(6  ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(12 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(12 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(18 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(18 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(24 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(24 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(36 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(36 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(42 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(42 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(48 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(48 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(54 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(54 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(66 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(66 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(72 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(72 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(78 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(78 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(84 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(84 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(96 ,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(96 ,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(102,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(102,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(108,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(108,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(114,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(114,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(126,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(126,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(132,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(132,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(138,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(138,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(144,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(144,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(156,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(156,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(162,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(162,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(168,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(168,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(174,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(174,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(186,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(186,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(192,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(192,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(198,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(198,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(204,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(204,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(216,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(216,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(222,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(222,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(228,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(228,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(234,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(234,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(246,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(246,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(252,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(252,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(258,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(258,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(264,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(264,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(276,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(276,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(282,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(282,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(288,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(288,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(294,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(294,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(306,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(306,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(312,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(312,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(318,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(318,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(324,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(324,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(336,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(336,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(342,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(342,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(348,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(348,500,500)" />
+			<line   x1="500" y1="100" x2="500" y2="130" stroke="#000000" stroke-width="16" transform="rotate(354,500,500)" />
+			<circle                   cx="500" cy="130"   fill="#000000"            r="08" transform="rotate(354,500,500)" />
+	
+	
+			<text   id="AM_PM"  x="500" y="800" font-size="100" fill="#df0067" text-anchor="middle" font-family="monospace"></text>
+	
+
+			<line    id="hour1"   x1="500" y1="500" x2="500" y2="350" stroke-width="10" stroke="#6600FF" />
+			<polygon id="hour2"   points="485,350 515,350 500,330" fill="#6600FF" />
+			<line    id="minute1" x1="500" y1="500" x2="500" y2="300" stroke-width="10" stroke="#6600FF" transform="rotate(0,500,500)" />
+			<polygon id="minute2" points="485,300 515,300 500,280" fill="#6600FF" transform="rotate(0,500,500)" />
+			<line    id="second1" x1="500" y1="500" x2="500" y2="200" stroke-width="10" stroke="#6600FF" transform="rotate(0,500,500)" />
+			<polygon id="second2" points="485,200 515,200 500,180" fill="#6600FF" transform="rotate(0,500,500)" />
+			<circle cx="500" cy="500" r="20"  fill="#000000"/>
+		</svg>
+		<audio id="sound">
+			<source src="audio/clock-tickling.mp3"></source>
+		</audio>
+	</body>
+</html>
