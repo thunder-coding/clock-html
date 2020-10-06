@@ -15,7 +15,7 @@ function showTime()
 	document.getElementById("minute2").setAttribute("transform","rotate(" +(6*date.getMinutes()  + date.getSeconds()/10)+ ",500,500)");
 	document.getElementById("hour1"  ).setAttribute("transform","rotate(" +(30*date.getHours()   + date.getMinutes()/2.5 )+",500,500)");
 	document.getElementById("hour2"  ).setAttribute("transform","rotate(" +(30*date.getHours()   + date.getMinutes()/2.5 )+",500,500)");
-	window.focus();
+	Window.focus();
         document.getElementById("sound"  ).play();
 }
 showTime();
