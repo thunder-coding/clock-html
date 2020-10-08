@@ -1,4 +1,4 @@
-<svg height="1000" width="1000" viewBox="0 0 1000 1000">
+<svg xmlns="http://www.w3.org/2000/svg" height="1000" width="1000" viewBox="0 0 1000 1000">
 			<circle id="x" cx="500" cy="500" r="400" stroke-width="20" stroke="#000000" fill="#CBCBCB"/>
 			<rect   width="350" height="150" x="325" y="550" />
 			<text id="date"   x="390" y="625" font-size="100" text-anchor="middle" font-family="serif" fill="#FF00FF"></text>
